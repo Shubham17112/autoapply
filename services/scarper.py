@@ -76,6 +76,18 @@ def scrape_indeed_jobs(filters=None):
 
     return job_list
 
+
+# now i wil writhg not just indeed but any other job portal
+#resume ,joportal json
+def scrape_job_postings(resume,jobportal_selection):
+    jobportal_selection ={
+        "indeed":True,
+        "glassdoor":True,
+        "linkedin":True,
+        "monster":True,
+    }
+    
+    return True
 # if __name__ == "__main__":
 #     a= scrape_indeed_jobs('data+analyst','noida,+uttar+pradesh')
 #     print(a)
